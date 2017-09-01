@@ -1,9 +1,9 @@
 import scipy
-from scipy import signal
+from scipy.stats import norm, ttest_ind, ttest_rel
 
 import numpy as np
 from numpy import random
-
+import plotly
 import matplotlib.pyplot as plt
 
 import pandas as pd
@@ -12,6 +12,8 @@ from sympy.stats import cdf
 if __name__ == '__main__':
     np.cov(ddof=0)
     x = np.arange(50, step=10)
+    ttest_ind
+    norm.sf()
 
     x = random.random(100)
 
